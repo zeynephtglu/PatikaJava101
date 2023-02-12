@@ -1,0 +1,26 @@
+[22,27,16,2,18,6] -> Insertion Sort
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+1.	Aşama: [2,27,16,22,18,6] (2 ile 22 yer değiştiriyor)
+2.	Aşama: [2,6,16,22,18,27] (6 ile 27 yer değiştiriyor)
+3.	Aşama: [2,6,16,22,18,27] (değişiklik yok)
+4.	Aşama: [2,6,16,18,22,27] (22 ile 18 yer değiştiriyor)
+5.	Aşama: [2,6,16,18,22,27] (değişiklik yok)
+6.	Aşama: [2,6,16,18,22,27] (değişiklik yok)
+
+Big-O gösterimi:
+1.	aşamada 6(n) işlem
+2.	aşamada 5(n-1) işlem
+3.	aşamada 4(n-2) işlem
+4.	aşamada 3(n-3) işlem
+5.	aşamada 2(n-4) işlem
+6.	aşamada 1(n-5) işlem 
+7.	Toplamda = n+(n-1)+(n-2)+(n-3)+(n-4)+(n-5) = n.(n-1)/2= (n^2-n)/2 
+Denklemde en büyük etkiye sahip terimi seçersek: Big-O = n^2
+
+Time Complexity: 18 sayısı dizinin ortasında yer aldığı için Average Case
+
+soru 2) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+1.	Adım: [2,3,5,8,7,9,4,15,6]
+2.	Adım: [2,3,5,8,7,9,4,15,6]
+3.	Adım: [2,3,4,8,7,9,5,15,6]
+4.	Adım: [2,3,4,5,7,9,8,15,6]
